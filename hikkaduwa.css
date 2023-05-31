@@ -1,0 +1,409 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+/*----ocean meta---*/
+header{
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 150px;
+    transition: 0.5s ease;
+}
+
+header .brand{
+    color: #87d1f3;
+    font-size: 2em;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+/*---navigation bar--*/
+header .navigation{
+    position: relative;
+}
+
+header .navigation .navigation-items{
+    display: flex;
+    align-items: right;
+    gap: 2.5rem;
+    margin-left: 200px;
+}
+
+
+header .navigation .navigation-items a{
+   font-size: 1.1rem;
+   transition: all 400ms ease;
+   text-decoration: none;
+   color: #94d6f5;
+}
+
+header .navigation .navigation-items a:hover{
+  color: white;
+}
+
+
+
+/*--video--*/
+.head{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: lightskyblue;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(back\ newwwwwwwwwww.jpg);;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.head:before{
+    z-index: 777;
+    content: '';
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+
+
+/*---heading---*/
+
+.head .hatchery{
+    z-index: 888;
+    color: #fff;
+    width: 70%;
+    margin-top: 150px;  
+}
+
+.head .hatchery h1{
+    font-size: 4em;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 75px;
+    margin-bottom: 40px;
+    margin-left: 20%;
+}
+
+.head .hatchery h1 span{
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.head .hatchery p{
+    margin-bottom: 65px;
+    margin-left: 20%;
+}
+
+.head video{
+    z-index: 000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/*------------images---------*/
+
+
+.images{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(new\ image2.avif);;   
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.card{
+    width: 320px;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 8px solid #fff;
+    position: relative;
+    display: inline-block;
+    margin-left: 90px;
+    margin-top: 40px;
+}
+
+
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/*--map--*/
+
+.container{
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    font-size: 35px;
+    line-height: 70px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.container h1{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+}
+
+iframe{
+    width: 90%;
+    height: 500px;
+    padding-left:1%;
+}
+
+
+
+/*--about turtles--*/
+
+.categories h1{
+    line-height: 1;
+    margin-bottom: 3rem;
+    margin-left: 30%;
+    margin-top: 10%;
+    color: whitesmoke;
+    font-size: 3rem;
+}
+
+
+.categories h5{
+    color: #78cdf5;
+    font-size: 1rem;
+}
+
+
+.categories__container{
+    display: grid;
+    grid-template-columns: 40% 70%;
+    gap:3rem;
+    margin-right: 20%;
+}
+
+.categories__left{
+    margin-right:4rem ;
+}
+
+.categories{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(new\ image2.avif);;   
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.categories__left img{
+    margin:1rem 0 3rem;
+    margin-left: 30%;
+    margin-top: -10px;
+    width:350px;
+    border-radius: 10px;
+}
+
+.categories__left_1 p{
+    margin-left: 50px;
+   font-size: 1.1rem;
+   margin-left: 30%;
+   color: whitesmoke;
+}
+
+.categories__left_1 h1{
+    text-align: center;
+   margin-left: 30%;
+
+   
+}
+
+.categories__right{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:1.2rem;
+    padding: 2rem;
+    border-radius: 2rem;
+    transition:var(--transition) ;
+    margin-left: 40px;
+}
+
+.categories__right .category{
+    background: #286785;
+    padding: 2rem;
+    border-radius: 2rem;
+    transition: #fff;
+    color:whitesmoke;
+}
+
+/*---footer---*/
+
+footer{
+    background:#286785;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    font-size: 0.9rem;
+    margin-top: 80px;
+    margin-top: -2%;
+    margin-bottom: 0px;
+}
+
+.footer__container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 5rem;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: auto;
+}
+
+.footer__container h4{
+    margin-bottom: 1.2rem;
+    color: #78cdf5;
+}
+
+.footer__logo {
+    text-decoration: none;
+}
+.footer__1 p{
+    margin: 0 0 2rem;
+    color: white;
+}
+
+.footer__2 ul li{
+    color: white;
+}
+.footer__2 ul li a{
+    margin-bottom: 0.7rem;
+    color: white;
+    text-decoration: none;
+}
+
+.footer__container p{
+    color: white;
+}
+
+
+
+
+@media(max-width:730px){
+    .head .hatchery h1{
+        font-size: 220%;
+        line-height: 80%;
+margin-top: 10%;
+margin-left: 10%;
+    }
+
+        /*--nav--*/
+
+        header .navigation .navigation-items{
+            display: grid;
+            margin-left: 120%;
+            line-height: 100%;
+            gap: 0.8rem;
+            
+                }
+             
+                /*--logo--*/
+                header .brand{   
+            margin-left: 50%;
+            margin-top: -160%;
+            width: 10%;
+                }
+    
+}
+
+
+@media(max-width:730px){
+    .categories__right {
+display: inline-block;
+margin-top: 10%;
+margin-left: -20%;
+
+    }
+    
+    .categories__left_1 h1{
+    font-size: 200%;
+    margin-left: 20%;
+    
+    }    
+/*--foter--*/
+
+.footer__1{
+    font-size: 80%;
+    margin-left: -50%;
+    
+    }
+
+    .footer__2{
+    font-size: 80%;
+    margin-left: 100%;
+
+    }
+
+    .footer__3{
+    font-size: 80%; 
+    margin-left: -120%;
+    margin-top: 320%;
+
+    }
+    
+    .footer__4{
+        margin-left: -230%;
+        margin-top: 100%;
+        max-width: 50%;
+        
+    }
+        
+            header .navigation .navigation-items{
+        display: inline-block;
+        margin-left: -120%;
+        line-height: 200%;
+        
+            }
+         
+        
+        }
+                
+
+        @media(max-width:730px){
+            header .navigation .navigation-items{
+                display: grid;
+                margin-left: 120%;
+                line-height: 100%;
+                gap: 0.8rem;
+                
+                    }
+                            
+        
+                        /*--logo--*/
+            header .brand{   
+                margin-left: -90%;
+                margin-top: -160%;
+                width: 10%;
+                    }
+        
+                    
+        
+        
+        }

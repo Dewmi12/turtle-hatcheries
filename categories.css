@@ -1,0 +1,404 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+
+/*----ocean meta---*/
+header{
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 150px;
+    transition: 0.5s ease;
+}
+
+header .brand{
+    color: #87d1f3;
+    font-size: 2em;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+
+/*---navigation bar--*/
+header .navigation{
+    position: relative;
+}
+
+header .navigation .navigation-items{
+    display: flex;
+    align-items: right;
+    gap: 2.5rem;
+    margin-left: 200px;
+}
+
+header .navigation .navigation-items a{
+   font-size: 1.1rem;
+   transition: all 400ms ease;
+   text-decoration: none;
+   color: #94d6f5;
+}
+
+header .navigation .navigation-items a:hover{
+  color: white;
+}
+
+
+
+/*--video--*/
+.head{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(back\ newwwwwwwwwww.jpg);;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+/*---heading---*/
+
+.head .categories{
+    z-index: 888;
+    color: #fff;
+    width: 70%;
+    margin-top: 150px;  
+}
+
+.head .categories h1{
+    font-size: 4em;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 75px;
+    margin-bottom: 40px;
+    margin-left: 20%;
+}
+
+.head .categories  h1 span{
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.head .categories p{
+    margin-bottom: 65px;
+    margin-left: 20%;
+}
+
+ 
+.head video{
+    z-index: 000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+/*--images--*/
+
+.background{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(new\ image2.avif);;   
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.card{
+    width: 320px;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 8px solid #3d8ba5;
+    position: relative;
+    display: inline-block;
+    margin-left: 90px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card-body{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: -120%;
+    padding-left: 20px;
+    padding-top: 40px;
+    position: absolute;
+    background: #1f3d4738;
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    color: #fff;
+    flex-direction: column;
+    justify-content: center;
+    transition: 2s;
+}
+
+.card:hover .card-body{
+    right: 0;
+}
+
+.card-title{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.card-sub-title{
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.card-info{
+    font-size: 14px;
+    line-height: 25px;
+    margin: 40px 0;
+    font-weight: 400;
+    color: #fff;
+}
+
+.card-info2 h1{
+    text-align: center;
+    color: #fff;
+
+}
+.card-info2 p{
+    text-align: center;
+    color: #fff;
+}
+
+.btn{
+    color:white;
+    background: #3d8ba5;
+    padding: 10px 20px;
+    width: 120px ;
+    border-radius: 5px;
+    text-transform: capitalize;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+body{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(back\ newwwwwwwwwww.jpg);;   
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+/*--table--*/
+.table-con h1{
+    color: #fff;
+    margin-left: 220px;
+    text-align: center;
+    margin-top: 70px;
+    max-width: 900px;
+    font-size: 50px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+    border: 5px steelblue dotted;
+}
+
+table{
+    width: 80%;
+    box-shadow: -1px 12px 12px -6px rgba(0,0,0,0.5);
+    margin-bottom: 60px;
+    margin-left: 150px;
+    border-collapse: collapse;
+}
+
+
+.table td,.table th{
+    padding:12px 15px;
+    border:1px solid lightseagreen;
+    text-align: center;
+    font-size:16px;
+  }
+
+td{
+    font-size: 18px;
+}
+
+.table th{
+	background-color: lightseagreen;
+	color:#ffffff;
+}
+
+.table tbody tr:nth-child(even){
+	background-color: lightskyblue;
+}
+
+img{
+    width: 50%;
+    border-radius: 50%;
+}
+
+tfoot{
+    column-span: 4;
+}
+
+
+.table-con{
+    color: #fff;
+    text-align: center;
+    font-size: 220%;
+}
+
+.table td{
+    color: #fff;
+}
+
+
+/*---footer---*/
+
+footer{
+    background:#286785;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    font-size: 0.9rem;
+    margin-top: 80px;
+    margin-top: -2%;
+    margin-bottom: 0px;
+}
+
+.footer__container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 5rem;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: auto;
+}
+
+.footer__container h4{
+    margin-bottom: 1.2rem;
+    color: #78cdf5;
+}
+
+.footer__logo {
+    text-decoration: none;
+}
+.footer__1 p{
+    margin: 0 0 2rem;
+    color: white;
+}
+
+.footer__2 ul li{
+    color: white;
+}
+.footer__2 ul li a{
+    margin-bottom: 0.7rem;
+    color: white;
+    text-decoration: none;
+}
+
+.footer__container p{
+    color: white;
+}
+
+
+
+
+@media(max-width:730px){
+    .head .categories h1{
+        font-size: 220%;
+        line-height: 80%;
+margin-top: 10%;
+margin-left: 10%;
+
+
+
+   }
+
+
+    /*--nav--*/
+
+    header .navigation .navigation-items{
+        display: grid;
+        margin-left: 120%;
+        line-height: 100%;
+        gap: 0.8rem;
+        
+            }
+         
+            /*--logo--*/
+            header .brand{   
+        margin-left: -90%;
+        margin-top: -160%;
+        width: 10%;
+            }
+
+    .table-con h1{
+        margin-left: 20px;
+    }
+    .table{
+        margin-left: -19px;
+        margin-right: 40%;
+     
+    }
+    /*--foter--*/
+
+.footer__1{
+    font-size: 80%;
+    margin-left: -50%;
+    
+    }
+
+    .footer__2{
+    font-size: 80%;
+    margin-left: 100%;
+
+    }
+
+    .footer__3{
+    font-size: 80%; 
+    margin-left: -120%;
+    margin-top: 320%;
+
+    }
+    
+    .footer__4{
+        margin-left: -230%;
+        margin-top: 100%;
+        max-width: 50%;
+        
+    }
+
+        }
+        
+    
+ 
+ 

@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+    
+}
+a{
+    text-decoration: none;
+}
+
+/*----ocean meta---*/
+header{
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 150px;
+    transition: 0.5s ease;
+}
+
+header .brand{
+    color: #87d1f3;
+    font-size: 2em;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+/*---navigation bar--*/
+header .navigation{
+    position: relative;
+}
+
+header .navigation .navigation-items{
+    display: flex;
+    align-items: right;
+    gap: 3.5rem;
+    margin-left: 200px;
+}
+
+
+header .navigation .navigation-items a{
+   font-size: 1.1rem;
+   transition: all 400ms ease;
+   text-decoration: none;
+   color: #94d6f5;
+}
+
+header .navigation .navigation-items a:hover{
+  color: white;
+}
+
+body{
+     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(b\ image.jpg);;   
+}
+
+/*---heading---*/
+.head .categories{
+    z-index: 888;
+    color: #fff;
+    width: 70%;
+    margin-top: 150px;  
+}
+
+.head .categories h1{
+    font-size: 4em;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 75px;
+    margin-bottom: 40px;
+    margin-left: 20%;
+}
+
+.head .categories h1 span{
+    font-size: 1em;
+    font-weight: 600;
+}

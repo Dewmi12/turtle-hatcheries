@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+    
+}
+a{
+    text-decoration: none;
+}
+
+/*----ocean meta---*/
+header{
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 150px;
+    transition: 0.5s ease;
+}
+
+header .brand{
+    color: #87d1f3;
+    font-size: 2em;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+/*---navigation bar--*/
+header .navigation{
+    position: relative;
+}
+
+header .navigation .navigation-items{
+    display: flex;
+    align-items: right;
+    gap: 2.5rem;
+    margin-left: 200px;
+}
+
+
+header .navigation .navigation-items a{
+   font-size: 1.1rem;
+   transition: all 400ms ease;
+   text-decoration: none;
+   color: #94d6f5;
+}
+
+header .navigation .navigation-items a:hover{
+  color: white;
+}
+
+
+
+
+/*-----T1-------*/
+
+.T1{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    float: left;
+    padding-top: 2px;
+    padding-left: 20px;
+    margin-top: 120px;
+}
+
+body{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(back\ newwwwwwwwwww.jpg);;   
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.T1-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-top: -85px;
+    position: relative;
+    overflow: hidden;
+    margin-left: 50px;
+}
+
+.T1-col img{
+    width: 100%;
+    display: block;
+    height: auto;
+    transition: 0.5s ease;
+}
+
+
+
+.para2 h1{
+    color: #fff;
+    margin-left: 570px;
+    text-align: justify;
+    margin-top: 170px;
+    max-width: 900px;
+    font-size: 50px;
+    margin-right: 50px;
+}
+
+.para2 p{
+    color: #fff;
+    margin-left: 570px;
+    text-align: justify;
+    margin-top: 20px;
+    max-width: 900px;
+    margin-right: 50px;
+}
+
+.container{
+    width: 50%;
+    height: 100vh;
+    color: #fff;
+    font-size: 35px;
+    line-height: 70px;
+    padding-top: 100px;
+    text-align: center;
+    margin-top: -80px;
+}
+
+.container h1{
+    margin-top: 100px;
+}
+
+iframe{
+    width: 80%;
+    height: 400px;
+    padding-left:1%;
+    margin-left: 110%;
+    margin-top: -100%;
+}
+
+/*---footer---*/
+
+footer{
+    background:#286785;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    font-size: 0.9rem;
+    margin-top: 80px;
+    margin-top: -2%;
+    margin-bottom: 0px;
+}
+
+.footer__container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 5rem;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: auto;
+}
+
+.footer__container h4{
+    margin-bottom: 1.2rem;
+    color: #78cdf5;
+}
+
+.footer__logo {
+    text-decoration: none;
+}
+.footer__1 p{
+    margin: 0 0 2rem;
+    color: white;
+}
+
+.footer__2 ul li{
+    color: white;
+}
+.footer__2 ul li a{
+    margin-bottom: 0.7rem;
+    color: white;
+    text-decoration: none;
+}
+
+.footer__container p{
+    color: white;
+}
+
+
+
+
+@media(max-width:730px){
+     /*--nav--*/
+
+     header .navigation .navigation-items{
+        display: grid;
+        margin-left: 120%;
+        line-height: 100%;
+        gap: 0.8rem;
+        
+            }
+         
+            /*--logo--*/
+            header .brand{   
+        margin-left: -90%;
+        margin-top: -160%;
+        width: 10%;
+            }
+        
+    .T1-col img{
+        width: 100%;
+        margin-left: -1%;
+    }
+    
+    .para2 h1{
+        margin-left: -30%;
+        font-size: 100%;
+        margin-top: 80%;
+    }
+    .para2 p{
+       margin-left: 10%;
+       margin-top: 30%;
+    }
+    .container h1{
+        font-size: 80%;
+        margin-left: -10%;
+        line-height: 110%;
+        
+    }
+    .footer__1{
+        font-size: 80%;
+        margin-left: -50%;
+        
+        }
+    
+        .footer__2{
+        font-size: 80%;
+        margin-left: 100%;
+    
+        }
+    
+        .footer__3{
+        font-size: 80%; 
+        margin-left: -120%;
+        margin-top: 320%;
+    
+        }
+        
+        .footer__4{
+            margin-left: -230%;
+            margin-top: 100%;
+            max-width: 50%;
+            
+        }
+      
+
+               
+    
+       
+}
+
+
+@media(max-width:730px){
+    header .navigation .navigation-items{
+        display: grid;
+        margin-left: 120%;
+        line-height: 100%;
+        gap: 0.8rem;
+        
+            }
+                    
+
+                /*--logo--*/
+    header .brand{   
+        margin-left: -90%;
+        margin-top: -160%;
+        width: 10%;
+            }
+
+            
+
+
+}
