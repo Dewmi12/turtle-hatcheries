@@ -297,6 +297,27 @@ footer{
         max-width: 50%;
         
     }
+    @media(max-width:730px){
+    header .navigation .navigation-items{
+        display: grid;
+        margin-left: 120%;
+        line-height: 100%;
+        gap: 0.8rem;
+        
+            }
+                    
+
+                /*--logo--*/
+    header .brand{   
+        margin-left: -90%;
+        margin-top: -160%;
+        width: 10%;
+            }
+
+            
+
+
+}
 
 
         iframe{
